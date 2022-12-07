@@ -1,8 +1,8 @@
 //check whether the number is prime or not//
 
 function prime(number){
-  var count = 1;
-  for(var i=0; i<=number; i++){
+  var count = 0;
+  for(var i=1; i<=number; i++){
   if(number%i==0){
     count++;
   }
@@ -19,20 +19,3 @@ prime(6);
 
 
 
-//check whether the string is palindrome or not//
-
-function checkPalindrome(num) {
-var bag = "";
-  for(var i = str.length-1; i>=0 ; i--){
-      bag = bag + str[i] + "-";
-  }
-  
-  if(bag==str){
-      console.log("Yes");
-  }
-  else{
-      console.log("No");
-  }
-  
-}
-checkPalindrome("naman");
